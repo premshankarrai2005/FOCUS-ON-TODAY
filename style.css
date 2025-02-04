@@ -1,0 +1,13 @@
+@tailwind base;
+@tailwind components;
+.custom-btn {
+    @apply bg-[#48A300] border-[#48A300] flex justify-center items-center h-[24px] w-[24px] max-md:h-[20px] max-md:w-[20px] rounded-full flex-shrink-0 cursor-pointer;  
+}
+.custom-btn:hover {
+    background-color: #1d4ed8; /* hover:bg-blue-700 */
+}
+@tailwind utilities;
+
+
+    
+  
